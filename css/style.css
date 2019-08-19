@@ -1,0 +1,219 @@
+div, nav, main, section, 
+article, aside, footer,content-wrapper,header {
+	
+}
+
+.header-image {
+    background-image: url(../img/UB_Home_ClaudiaRankine_desktop.jpg);
+        height: 290px;
+}
+
+header {
+    background-color: #0076A8;
+}
+
+.header-text {
+    margin-bottom: 10px;
+    line-height: 2;
+    width: 40%;
+    float: right;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.highlight {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+main {
+    margin-top: -30px;
+}
+
+.content-wrapper {
+   flex-wrap: wrap;
+}
+
+.logo {
+    padding-top: 10px;
+    width: 90%;
+}
+
+.heading {
+    border-bottom: 5px solid #000;
+    margin-bottom: 20px;
+}
+
+.heading-info {
+    color: black;
+    font-size: .90rem;
+    padding-top: 8px;
+}
+
+.heading h3 a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+
+.heading h3:after,.faux-h3:after {
+    content: "\003e";
+    color: #0076A8;
+    font-size: 1.1rem;
+    vertical-align: 2px;
+    
+}
+
+.bluebg a:after,.faux-a:after {
+    content: "\003e";
+    color: white;
+    font-size: 1.1rem;
+    margin: 210px;
+}
+
+.law a:after,.law a:after {
+    content: "\003e";
+    color: white;
+    font-size: 1.1rem;
+    margin: 261px;
+}
+
+/* Mobile Styles ub-cal ub-mag ub-yku ub-snap ub-news*/
+@media only screen and (max-width: 426px) {
+    .header-text {
+        font-size: 1.1rem;
+    }
+    
+    .hide-mb {
+        display: none;
+    }
+    
+    .hide-footer {
+        text-align: center;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 427px) and (max-width: 960px) {
+  .header-text {
+        font-size: 1.4rem;
+    }
+    .hide-footer {
+        text-align: center;
+    }
+    
+    .logo {
+    width: 90%;
+    }
+    
+    .header-cont {
+        padding: 20px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .header-text {
+        font-size: 2.3rem;
+    }
+    .hide-footer {
+        text-align: right;
+    }
+}
+
+.snapshot
+ {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+ h6:after, .faux-h6:after {
+    content: "\003e";
+    color: #0076A8;
+}
+
+/* VIDEO DIV STARTS HERE */
+
+.bluebg {
+    color: white;   
+}
+
+.title {
+    color: #000;
+    font-weight: bold;
+    font-size: 0.84rem;
+
+}
+
+.date {
+    color: #000;
+    font-weight: bold;
+    font-size: 0.84rem;
+}
+
+.gray-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 0.84rem;
+}
+
+.gray-header h3 a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.gray-header {
+    border-bottom: 5px solid #000;
+    margin-bottom: 20px;
+}
+
+.grey-sec {
+    background-color: rgb(232,232,232);
+}
+
+.blue-sec {
+    background-color: #0076A8;
+}
+
+.blue-header {
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.blue-text {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: .85rem;
+}
+
+.snap-icon {
+    width: 40px;
+}
+
+.program-icon {
+    width: 40px;    
+}
+
+.social-icon {
+    width: 40px;   
+}
+
+.nav-header:after{
+content: "";
+    display: inline-block;
+    height: 11px;
+    margin-left: 20px;
+    border-right: 1px dotted #0076A8;
+}
+
+.nav-text {
+    color: #0076A8;
+    font-size: .90rem;
+    text-transform: uppercase;
+}
+
